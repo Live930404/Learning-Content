@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            width: 882px;
+            height: 86px;
+            margin:100px auto;
+            background-color: #ddd;
+            overflow: hidden;
+        }
+        div >ul {
+            width: 200%;
+            list-style: none;
+            animation-name: move;
+            animation-duration: 7s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        div > ul > li{
+            width:126px;
+            float: left;
+        }
+        div > ul > li　> img{
+            width:100%;
+        }
+        @keyframes move {
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-882px);
+            }
+        }
+        /*需求：实现无限滚动*/
+        /*步骤1：让ul动起来，往x轴的负方向移动882个像素
+            思考：可以使用过渡吗？不能，因为过渡不能无限进行
+            创建动画，名称为move，开始的时候translateX为0,100%的时候translateX为-882px
+        */
+        /*步骤2：将ul增加move这个动画，单次动画时长为7秒*/
+        /*步骤3：发现ul移动的不匀速，将ul移动的速度变为匀速*/
+        /*步骤4：发现当ul移动了之后，就显示出灰色的div背景，我们需要增加ul里面图片的数量，增加一倍即可*/
+        /*步骤5，将ul的图片增加了一倍之后，发现ul变成两行了，所以我们应该增加ul的宽度，让ul的宽度为父容器的两倍 */
+        /*步骤6，ul太长了，需要将ul超出父容器的部分隐藏起来，给ul的父容器增加overflow*/
+        /*步骤7,移动结束之后就停止了，所以需要将动画的次数变为无限次*/
+        /*步骤8，当鼠标移动到ul上方的时候，将鼠标的图标改变为cursor，也需要将动画停止下来*/
+    </style>
+</head>
+<body>
+<div>
+    <ul>
+        <li><img src="images/1.jpg" alt=""></li>
+        <li><img src="images/2.jpg" alt=""></li>
+        <li><img src="images/3.jpg" alt=""></li>
+        <li><img src="images/4.jpg" alt=""></li>
+        <li><img src="images/5.jpg" alt=""></li>
+        <li><img src="images/6.jpg" alt=""></li>
+        <li><img src="images/7.jpg" alt=""></li>
+        <li><img src="images/1.jpg" alt=""></li>
+        <li><img src="images/2.jpg" alt=""></li>
+        <li><img src="images/3.jpg" alt=""></li>
+        <li><img src="images/4.jpg" alt=""></li>
+        <li><img src="images/5.jpg" alt=""></li>
+        <li><img src="images/6.jpg" alt=""></li>
+        <li><img src="images/7.jpg" alt=""></li>
+    </ul>
+</div>
+
+</body>
+</html>
