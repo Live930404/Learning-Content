@@ -1,0 +1,616 @@
+/*顶部开始*/
+.nav {
+    height: 55px;
+    max-width: 1920px;
+    background-color: #323232;
+    margin: 0 auto;
+    position: relative;
+}
+.nav .logo {
+    float: left;
+}
+.nav .logo img{
+    display: inline-block;
+    width: 76px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.nav .nav-in{
+    float: left;
+}
+.nav-in ul {
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.nav-in li{
+    float: left;
+    padding: 0 18px;
+    position: relative;
+}
+.nav-in .gif{
+    padding-right:26px;
+}
+.nav-in li a{
+    font: 700 16px "Hiragino Sans GB","Microsoft YaHei","SimHei","SimSun","ans-serif";
+    color: #B6B6B6;
+}
+.nav a:hover{
+    color: #10b03f;
+}
+.nav-in .sanjiao img{
+    position: absolute;
+    height: 5px;
+    width: 11px;
+    margin-left: 3px;
+    top: 9px;
+    right: 1px;
+}
+.nav-in .gif img{
+    width: 41px;
+    height: 19px;
+    position: absolute;
+    top: -5px;
+    right: -16px;
+}
+.nav .search{
+    height: 58px;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    line-height: 58px;
+}
+.nav .search a{
+    color: #B6B6B6;
+    font: 600 16px "Hiragino Sans GB","Microsoft YaHei","SimHei","SimSun","ans-serif";
+    padding-right: 20px;
+    padding-left: 6px;
+}
+.nav .search a img{
+    vertical-align: middle;
+}
+.nav .search a:hover{
+    color: #10b03f;
+}
+.nav .search .xiangShang{
+    border-right: 1px solid #B6B6B6;
+}
+/*顶部结束*/
+/*头部开始*/
+.bigimg {
+    width:100%;
+    height:450px;
+    /*background-color: yellow;*/
+    position: relative;
+}
+.bigimg .adv01{
+    width:100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.adv01 {
+    margin-right: 4px;
+}
+.bigimg .adv01 img{
+    width:100%;
+    height: 450px;
+}
+.adv01 #imgList li {
+    margin: 0;
+    padding:0;
+    float: left;
+    position:relative;
+}
+.adv01 #imgList {
+    position: absolute;
+    top: 0;
+    width:15000px;
+    padding-left: 0;
+}
+.adv01 #imgList em{
+    position: absolute;
+    top: 400px;
+    right: 26px;
+    color: #fff;
+    font: 500 18px "Hiragino Sans GB","Microsoft YaHei","SimHei","SimSun","ans-serif";
+}
+.adv01 #imgList strong{
+    position: absolute;
+    top: 365px;
+    right:25px;
+    color: #fff;
+    font: 500 18px "Hiragino Sans GB","Microsoft YaHei","SimHei","SimSun","ans-serif";
+}
+.curr{
+    display:block;
+}
+
+.bigimg .left{
+    color: #fff;
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.75;
+    top: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+.bigimg .right{
+    color: #fff;
+    position: absolute;
+    font-size: 60px;
+    opacity: .75;
+    top: 200px;
+    right: 20px;
+    cursor: pointer;
+}
+.bigimg .imgsearch{
+    width: 578px;
+    height: 108px;
+    border-radius: 4px;
+    background: url("../03images/opacity_6.png");
+    position: fixed;
+    top:-206px;
+    left:374px;
+    padding: 4px;
+    position: relative;
+}
+
+.imgsearch input{
+    width: 490px;
+    height: 44px;
+    border: 0;
+    border-radius: 4px;
+    padding-left: 6px;
+    color: #B6D0BA;
+    outline: none;
+}
+.imgsearch button{
+    height: 47px;
+    width: 56px;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    position: absolute;
+    top: 3px;
+    left: 506px;
+    background-color: orangered;
+    background-image: url("../03images/ic_search_g.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgsearch .hot{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+.hot a{
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: 13px;
+}
+.hot a:hover{
+    text-decoration: underline;
+}
+.searchAll{
+    margin-top: 10px;
+}
+.searchAll a{
+    color: #ffffff;
+    font-size: 13px;
+}
+.searchAll a:hover{
+    text-decoration: underline;
+}
+.header .hello {
+    position: absolute;
+    left: 0;
+    top: 132px;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    line-height: 50px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .7);
+}
+
+.header .mask {
+    position: absolute;
+    width: 600px;
+    padding: 20px;
+    margin-top: 198px;
+    margin-left: 352px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.mask .header-sou {
+    padding-left: 20px;
+    width: 550px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636363;
+    outline: none;
+    margin: 5px 10px;
+    font-family: Hiragino Sans GB, Microsoft YaHei, \9ED1\4F53, \5b8b\4f53, sans-serif;
+}
+.mask .hot-city, .hot-city a {
+    padding-left: 18px;
+    color: #fff;
+    font: 12px/1.5 Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, \5b8b\4f53, sans-serif;
+}
+.mask .all-city {
+    margin-top: 6px;
+}
+
+.mask .all-city a {
+    padding-left: 18px;
+    color: #fff;
+    font: 12px/1.5 Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, \5b8b\4f53, sans-serif;
+}
+
+/*头部结束*/
+/*广告栏开始*/
+.adv02 {
+    padding-top: 40px;
+    line-height: 26px;
+    width: 1160px;
+    margin-left: 100px;
+}
+
+/*广告栏结束*/
+/*美图信息栏开始*/
+
+.search-l {
+    font-size: 24px;
+    margin-top: 24px;
+    color: #323232;
+}
+
+.search-r li {
+    float: left;
+    padding: 0 8px;
+    cursor: default;
+    margin-top: 28px;
+}
+
+.search-r a {
+    color: #323232;
+    font-weight: 700;
+    padding-left: 10px;
+}
+/*美图信息栏结束*/
+/*瀑布流开始*/
+.meitu {
+    margin-top: 70px;
+    height: 610px;
+    position: relative;
+}
+ .box1 img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+     cursor: pointer;
+     transition: all 0.6s;
+}
+.box1 img:hover{
+    transform: scale(0.9);
+}
+.box2 img{
+    position: absolute;
+    top:  0px;
+    left: 392px;
+    cursor: pointer;
+    transition: all 0.6s;
+    height: 200px;
+    width: 195px;
+}
+.box2 img:hover{
+    transform: scale(0.9);
+}
+.box3 img{
+    position: absolute;
+    top:  0px;
+    left: 593px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.box3 img:hover{
+    transform: scale(0.9);
+}
+.box4 img{
+    position: absolute;
+    top:  0px;
+    left: 792px;
+    cursor: pointer;
+    transition: all 0.6s;
+    height: 199px;
+    width: 198px;
+}
+.box4 img:hover{
+    transform: scale(0.9);
+}
+.box5 img{
+    position: absolute;
+    top:  204px;
+    left: 0px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.box5 img:hover{
+    transform: scale(0.9);
+}
+.box6 img{
+    position: absolute;
+    top:  204px;
+    left: 199px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.box6 img:hover{
+    transform: scale(0.9);
+}
+.box7 img{
+    position: absolute;
+    top:  410px;
+    left: 198px;
+    cursor: pointer;
+    transition: all 0.6s;
+    height:199px;
+    width: 199px;
+}
+.box7 img:hover{
+    transform: scale(0.9);
+}
+.box8 img{
+    position: absolute;
+    top:  410px;
+    left: 404px;
+    cursor: pointer;
+    transition: all 0.6s;
+    width:199px;
+    height:199px;
+}
+.box8 img:hover{
+    transform: scale(0.9);
+}
+.box9 img{
+    position: absolute;
+    top:  204px;
+    left: 792px;
+    cursor: pointer;
+    transition: all 0.6s;
+    width: 198px;
+    height: 199px;
+}
+.box9 img:hover{
+    transform: scale(0.9);
+}
+.box10 img{
+    position: absolute;
+    top:  410px;
+    left: 609px;
+    cursor: pointer;
+    transition: all 0.6s;
+    width: 382px;
+    height: 200px;
+}
+.box10 img:hover{
+    transform: scale(0.9);
+}
+/*瀑布流结束*/
+/*国家列表单开始*/
+.list{
+    height: 2496px;
+}
+.list-in{
+    height:38px;
+    margin-top: 60px;
+}
+.list-l {
+    font-size: 20px;
+    color: #323232;
+}
+.list-r li {
+    float: left;
+    padding: 0 25px;
+}
+.list-r li a{
+    color: #323232;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Asia,.Europe,.Africa,.North-America,.South-America,.Oceania,.Antarctica {
+    margin-top: 20px;
+    height: 60px;
+    color: #323232;
+}
+.Asia a,.Europe a,.Africa a,.North-America a,.South-America a,.Oceania a,.Antarctic a{
+    color: #323232;
+    line-height: 60px;
+}
+.Asia-one ul,.Europe-one ul,.Africa-one ul,.North-America-one ul,.South-America-one ul,.Oceania-one ul {
+    margin-top: 26px;
+    padding-left: 0;
+
+}
+.Asia-one ul a,.Europe-one ul a,.Africa-one ul a,.North-America-one ul a,.South-America-one ul a,.Oceania-one ul a{
+    font-size: 14px;
+    color: #222222;
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, \5b8b\4f53, sans-serif;
+
+
+}
+.Asia-one ul a:hover,.Europe-one ul a:hover,.Africa-one ul a:hover,.North-America-one ul a:hover,.South-America-one ul a:hover,.Oceania-one ul a:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.Asia-one{
+    position: relative;
+}
+.Asia-one span{
+    color: #959595;
+    margin-left: 4px;
+}
+.Asia-one .por{
+    position: absolute;
+    top: 87px;
+    right: 0;
+}
+.Europe-one{
+    position: relative;
+}
+.Europe-one span{
+    color: #959595;
+    margin-left: 4px;
+}
+.Europe-one .por{
+    position: absolute;
+    top: 509px;
+    right: 80px;
+}
+.Africa-one{
+    position: relative;
+}
+.Africa-one span{
+    color: #959595;
+    margin-left: 4px;
+}
+.Africa-one .por{
+    position: absolute;
+    top: 985px;
+    right: 24px;
+}
+.North-America-one{
+    position: relative;
+}
+.North-America-one span{
+    color: #959595;
+    margin-left: 4px;
+}
+.North-America-one .por{
+    position: absolute;
+    top: 1536px;
+    right: -38px;
+}
+.South-America-one{
+     position: relative;
+ }
+.South-America-one span{
+    color: #959595;
+    margin-left: 4px;
+}
+.South-America-one .por{
+    position: absolute;
+    top: 1936px;
+    right: 168px;
+}
+.Oceania-one{
+    position: relative;
+}
+.Oceania-one span{
+    color: #959595;
+    margin-left: 4px;
+}
+
+.Oceania-one .por{
+    position: absolute;
+    top: 2143px;
+    right: 26px;
+}
+.Asia-city{
+    margin-left: 145px;
+}
+.Europe-city{
+    margin-left: 160px;
+}
+.Africa-city{
+    margin-left: 100px;
+}
+.North-America-city{
+    margin-left: 100px;
+}
+.South-America-city{
+    margin-left: 220px;
+}
+.Oceania-city{
+    margin-left: 60px;
+}
+/*国家列表单结束*/
+/*底部开始*/
+.footer{
+    height: 160px;
+    background-color: #04000E;
+    border-top: solid 3px #25A851;
+}
+.about{
+    margin-top: 34px;
+    height: 17px;
+}
+.about li{
+    float: left;
+    border-left: 2px solid #A5C0C0;
+}
+.about .green{
+    border-left: 2px solid #25A851;
+}
+.about a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #A5C0C0;
+    padding:0 10px;
+}
+.about a:hover{
+  color: #A5C0C0;
+    text-decoration: underline;
+}
+.footer .qy{
+    margin-top: 24px;
+    height: 40px;
+}
+.qy span{
+    font-size: 12px;
+    color: #636363;
+    padding-left: 200px;
+}
+.qy a {
+    font-size: 12px;
+    color:#636363;
+}
+.qy a:hover{
+    color: #636363;
+    text-decoration: underline;
+}
+.links{
+    height: 14px;
+    margin-left:300px ;
+}
+.links-in .friend{
+    font-size: 14px;
+    color: #636363;
+    margin-top: 2px;
+}
+.links-in li{
+    float: left;
+}
+.links-in a {
+    font-size: 12px;
+    color: #636363;
+    padding: 0 10px;
+    border-right: 1px solid #A5C0C0;
+}
+.links-in a:hover{
+    color: #636363;
+    text-decoration: underline;
+}
+.links-in .food{
+    margin-left: 15px;
+}
+.links-in .bj{
+    border-right: 0;
+}
+
+/*底部结束*/
+
+
