@@ -1,0 +1,119 @@
+//导航栏html
+
+<div class="nav">
+    <div class="logo">
+        <h1>
+            <a href="#"><img src="04images/logo.png" alt=""/></a>
+        </h1>
+    </div>
+    <div class="nav-in">
+        <ul>
+            <li>
+                <a href="#">目的地</a>
+            </li>
+            <li><a href="#">锦囊</a></li>
+            <li><a href="#">行程助手</a></li>
+            <li class="sanjiao"><a href="#">社区</a>
+                <image src="04images/down.png"></image>
+            </li>
+            <li class="gif"><a href="#">商城
+                <img src="04images/gif.gif" alt=""/>
+            </a></li>
+            <li><a href="#">机票</a></li>
+            <li><a href="#">酒店</a></li>
+            <li class="sanjiao"><a href="#">预定</a>
+                <image src="04images/down.png"></image>
+            </li>
+        </ul>
+    </div>
+    <div class="search">
+        <a href="#"><img src="04images/QQ.png" alt=""/></a>
+        <a href="#"><img src="04images/weixin.png" alt=""/></a>
+        <a href="#"><img src="04images/weobo.png" alt=""/></a>
+        <a href="#" class="xiangShang">注册</a>
+        <a href="#">登录</a>
+    </div>
+</div>
+
+//导航栏css
+
+.nav {
+    height: 55px;
+    max-width: 1920px;
+    background-color: #323232;
+    margin: 0 auto;
+    position: relative;
+}
+.nav .logo {
+    float: left;
+}
+.nav .logo img{
+    display: inline-block;
+    width: 76px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.nav .nav-in{
+    float: left;
+}
+.nav-in ul {
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.nav-in li{
+    float: left;
+    padding: 0 18px;
+    position: relative;
+}
+.nav-in .gif{
+    padding-right:26px;
+}
+.nav-in li a{
+    font: 700 16px "Hiragino Sans GB","Microsoft YaHei","SimHei","SimSun","ans-serif";
+    color: #B6B6B6;
+}
+.nav a:hover{
+   color: #10b03f;
+}
+.nav-in .sanjiao img{
+    /*background:url("../04images/down.png") right no-repeat;*/
+    position: absolute;
+    height: 5px;
+    width: 11px;
+    margin-left: 3px;
+    top: 9px;
+    right: 1px;
+}
+.nav-in .gif img{
+    width: 41px;
+    height: 19px;
+    position: absolute;
+    top: -5px;
+    right: -16px;
+}
+.nav .search{
+    height: 58px;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    line-height: 58px;
+}
+.nav .search a{
+    color: #B6B6B6;
+   font: 600 16px "Hiragino Sans GB","Microsoft YaHei","SimHei","SimSun","ans-serif";
+    padding-right: 20px;
+    padding-left: 6px;
+}
+.nav .search a img{
+    vertical-align: middle;
+}
+.nav .search a:hover{
+    color: #10b03f;
+}
+.nav .search .xiangShang{
+     border-right: 1px solid #B6B6B6;
+ }
+
+//favicon链接
+<link rel="shortcut icon" href="04images/favicon.ico"/>
